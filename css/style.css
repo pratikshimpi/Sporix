@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+* {
+  /* color: #334240 !important; */
+}
+*:active {
+  /* color: #42c1e7 !important; */
+}
+
+.nav-link {
+  color: #58716d !important;
+  font-size: 20px;
+}
+.active > .nav-link {
+  color: #42c1e7 !important;
+}
+
+.color-primary {
+  background-color: #1bbca3;
+}
+.transparent-layout-black {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.507);
+}
+.carousel-relative {
+  position: relative;
+}
+
+.carousel-caption {
+  z-index: 1;
+}
+.center-carousel-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  color: white;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.carousel-center-text {
+  font-size: 42px;
+}
+.custom-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: #fff;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  border: 2px solid #42c1e7;
+  background-color: transparent;
+  z-index: 1;
+}
+.custom-btn:hover {
+  background-color: #42c1e7;
+}
+
+li a:hover {
+  color: grey;
+}
+
+.progress-bar {
+  background-color: #42c1e7 !important;
+  height: 8px;
+  transition: 0.9s;
+  transition-property: all;
+  transition-duration: 0.9s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+.progressbar-container {
+  margin-top: 15px;
+}
+
+.count-box {
+  padding: 40px;
+  width: 100%;
+  /* background-color: white; */
+
+  box-shadow: -10px -5px 40px 0 rgba(0, 0, 0, 0.1);
+}
+.purecounter {
+  font-size: 48px;
+  line-height: 50px;
+  display: block;
+  text-align: center;
+  font-weight: 700;
+  color: #58716d;
+  margin-left: 50px;
+}
